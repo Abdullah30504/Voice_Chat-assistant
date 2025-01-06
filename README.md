@@ -1,6 +1,7 @@
 # Voice_Chat-assistant
 This is a simple voice assistant using Python libraries which takes commands through microphone and executes them 
 Available Voice Commands :
+
 Basic Commands
 "Hello"
 The assistant will greet you with a "Hello, How can I assist you today?" message.
@@ -38,14 +39,18 @@ Screenshot
 "Take screenshot"
 Takes a screenshot and saves it with a timestamped filename.
 WhatsApp Messaging
+
 "Send WhatsApp"
 Sends a predefined WhatsApp message to a specified number. (Note: This is a basic implementation and requires manual setup.)
 AI Interaction
+
 "Ask AI [your question]"
 Sends your question to the OpenAI API and reads out the response. For example, "Ask AI What is the capital of France?" will return "The capital of France is Paris."
+
 Multi-turn Conversation
 If the assistant does not recognize a specific command, it will treat the input as a conversational query and respond using the OpenAI API. This allows for multi-turn conversations.
 Configuration
+
 Voice Settings:
 You can change the voice and speech rate in the main.py file by modifying the engine.setProperty lines.
 
